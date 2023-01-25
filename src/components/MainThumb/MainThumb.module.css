@@ -91,7 +91,7 @@ font-size: 16px;
 line-height: 1.56;
 letter-spacing: 0.23619px;
 color: #878D9D;
-margin-left: 106px;
+margin-left: 10px;
 }
 
 
@@ -117,21 +117,15 @@ color: #878D9D;
     margin-left: 120px;
 }
 
-/* .logo{
-    position: relative;
-    width: 36px;
-    height: 36px;
-    left: 16px;
-    top: 45px;
-} */
 
-.hospital{
+.mainImage{
     position: absolute;
     margin-top: 60px;
     border-radius: 50%;
     size-adjust: inherit;
     width: 80px;
     height: 80px;
+    object-fit: cover;
 }
 
 
@@ -194,3 +188,10 @@ color: #878D9D;
     color: #55699E;
 
 }
+
+.locationThumb{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
