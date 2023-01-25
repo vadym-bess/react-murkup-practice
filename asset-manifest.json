@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-murkup-practice/static/css/main.149b2c30.css",
-    "main.js": "/react-murkup-practice/static/js/main.1120b40a.js",
+    "main.css": "/react-murkup-practice/static/css/main.78420a24.css",
+    "main.js": "/react-murkup-practice/static/js/main.c4bf4449.js",
     "index.html": "/react-murkup-practice/index.html",
-    "main.149b2c30.css.map": "/react-murkup-practice/static/css/main.149b2c30.css.map",
-    "main.1120b40a.js.map": "/react-murkup-practice/static/js/main.1120b40a.js.map"
+    "main.78420a24.css.map": "/react-murkup-practice/static/css/main.78420a24.css.map",
+    "main.c4bf4449.js.map": "/react-murkup-practice/static/js/main.c4bf4449.js.map"
   },
   "entrypoints": [
-    "static/css/main.149b2c30.css",
-    "static/js/main.1120b40a.js"
+    "static/css/main.78420a24.css",
+    "static/js/main.c4bf4449.js"
   ]
 }
