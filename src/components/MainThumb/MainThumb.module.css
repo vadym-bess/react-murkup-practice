@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #E6E9F2;
+    padding: 9px;
+    margin: 0;
+    
+}
+
+ .main {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+}
+
+
+.mainThumb{
+background: #EFF0F5;
+border-radius: 8px;
+width: 396px;
+height: 100%;
+padding: 16px;
+margin-right: 0;
+margin-bottom: 8px;
+
+}
+
+.heading{
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.3;
+letter-spacing: -0.5625px;
+color: #3A4562;
+margin-left: 90px;
+padding-top: 20px;
+margin-bottom: 5px;
+}
+
+.mainText{
+display: flex;
+flex-wrap: wrap;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.56;
+letter-spacing: 0.23619px;
+color: #878D9D;
+margin-left: 90px;
+margin-bottom: 7px;
+}
+
+.location{
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.56;
+letter-spacing: 0.23619px;
+color: #878D9D;
+margin-left: 106px;
+}
+
+
+.postInfo{
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 1.21;
+text-align: right;
+letter-spacing: 0.206667px;
+color: #878D9D;
+
+}
+
+.rank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 10px;
+    height: 10px;
+    margin-left: 120px;
+}
+
+/* .logo{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    left: 16px;
+    top: 45px;
+} */
+
+.hospital{
+    position: absolute;
+    margin-top: 60px;
+    border-radius: 50%;
+    size-adjust: inherit;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.star__icon{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0;
+    right: 0;
+}
+
+
+.logoLocationIcon{
+    width: 13px;
+    height: 18px;
+}
+
+.footerConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerThumb{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    gap: 36px;
+    width: 396px;
+    height: auto;
+    background-color: #EFF0F5;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 26px;
+    margin-bottom: 8px;
+}
+
+.footer-thumb__link{
+    font-family: 'Proxima Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 1.33333px;
+    color: rgba(56, 65, 93, 0.602109);
+}
+
+
+
+.current::after{
+    position: absolute;
+    content: "";
+    height: 0.5px;
+    width: 24px;
+    border: 2px solid;
+    left: 87px;
+    bottom: 0;
+    color: #55699E;
+
+}
